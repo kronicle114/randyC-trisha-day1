@@ -1,6 +1,6 @@
-# Day 1 | 10/29/18
-About: Resources and notes for today's topic
-Topic: Git, GitHub, and JavaScript Functions & Controlflow
+# Day 1: October 29, 2018
+* About: Resources and notes for today's topic
+* Topic: Git, GitHub, and JavaScript Functions & Controlflow
 
 ## Prerequisites 
 Complete materials below before 10/29/18
@@ -14,8 +14,9 @@ Complete materials below before 10/29/18
     - [ ] Object Oriented Programming
     - [ ] Functional Programming
     - [ ] ES6
-  - [x] Odin Project
-  - [x]Check out the Student List & follow everyone on GitHub
+  - [ ] JavaScript [Odin Project](https://www.theodinproject.com/courses/javascript)
+    - [x] Finished up to Object and Object Constructors
+  - [x] Check out the Student List & follow everyone on GitHub
   - [x] Check out graduation requirements
   
 - [x] Required Installation
@@ -40,7 +41,7 @@ Complete materials below before 10/29/18
 ### Exercises
 * Work through the [following drills](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/git-github-drills.md) on JavaScript fundamentals, switching who is driving and navigating between each drill. After each switch, commit and push your changes to GitHub.
   - [ ] [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
-  - [ ][Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
+  - [ ] [Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
 * When working through the drills, first state the problem clearly with your pair and discuss your solution before actually implementing it.
 
 ## Lunch Break | 12:45p - 1:30p ET
@@ -54,21 +55,18 @@ Complete materials below before 10/29/18
 - [ ] Evening reading and comprehension checks (if finished early)
 
 ## Evening Assignments | After 5:30p
-Evening assignments
-
 Review today's work and finish any exercises you didn't have time for.
+
 - [ ] Complete tomorrow's pre-requisites and the comprehension quiz linked in tomorrow's syllabus.
-- [ ] TUESDAY PREREQUISITE
- - [ ] [Loops and arrrays](https://courses.thinkful.com/web-dev-001v1/uuid/bb2d9e60-132b-11e7-b7c6-e92fc386f753)
- - [ ] [Scope](https://courses.thinkful.com/web-dev-001v1/uuid/bb2e61b1-132b-11e7-b7c6-e92fc386f753)
-- [ ] Watch:
- * Check out this TedTalk on ["Learning to Learn"](https://www.youtube.com/watch?v=O96fE1E-rf8) and consider how some of the ideas shared may relate to you and your bootcamp journey. Share in our Slack group what ideas resonate for you.
-- [ ] Read:
- * This article on [Growth Mindset](https://onedublin.org/2012/06/19/stanford-universitys-carol-dweck-on-the-growth-mindset-and-education/ ). Think about what you can do to cultivate more of a growth mindset in this course. Share your thoughts in our Slack group.
-- [ ] Complete Quiz below before 10a tomorrow Tue, 10/30
- * [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScleFOAUjZ-HxvTn_6e0VkmIYIE20WH4CSLL2A_ciRs3u13Yg/viewform)
-- [ ] Sign up for a mock interview for AJAX and jQuery, by clicking on "Goals" on your dashboard and scrolling down. Schedule it two weeks from now and outside of normal class hours so you're ready to complete it before moving on to the next course section. Don't worry, you'll know a lot more about these topics when you take the interview!
- * Two weeks makes around Nov 10th or Nov 11th
-- [ ] If you would like more practice with Git try using these tools: 
- - [ ] [TryGit](https://try.github.io/levels/1/challenges/1)
- - [ ] [Visualizing Git with D3](https://onlywei.github.io/explain-git-with-d3/)
+- [ ] Tuesday Prerequisite
+  - [ ] Review & note taking on slides [Loops and arrrays](https://courses.thinkful.com/web-dev-001v1/uuid/bb2d9e60-132b-11e7-b7c6-e92fc386f753)
+  - [ ] Review & note taking on slides [Scope](https://courses.thinkful.com/web-dev-001v1/uuid/bb2e61b1-132b-11e7-b7c6-e92fc386f753)
+  - [ ] Watch: Check out this TedTalk on ["Learning to Learn"](https://www.youtube.com/watch?v=O96fE1E-rf8) and consider how some of the ideas shared may relate to you and your bootcamp journey. Share in our Slack group what ideas resonate for you.
+  - [ ] Read: This article on [Growth Mindset](https://onedublin.org/2012/06/19/stanford-universitys-carol-dweck-on-the-growth-mindset-and-education/ ). Think about what you can do to cultivate more of a growth mindset in this course. Share your thoughts in our Slack group.
+   - [ ] Complete Quiz below before 10a tomorrow Tue, 10/30
+    * [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScleFOAUjZ-HxvTn_6e0VkmIYIE20WH4CSLL2A_ciRs3u13Yg/viewform)
+  - [ ] Sign up for a mock interview for AJAX and jQuery, by clicking on "Goals" on your dashboard and scrolling down. Schedule it two weeks from now and outside of normal class hours so you're ready to complete it before moving on to the next course section. Don't worry, you'll know a lot more about these topics when you take the interview!
+   * Two weeks makes around Nov 10th or Nov 11th
+  - [ ] If you would like more practice with Git try using these tools: 
+  * [TryGit](https://try.github.io/levels/1/challenges/1)
+  * [Visualizing Git with D3](https://onlywei.github.io/explain-git-with-d3/)
