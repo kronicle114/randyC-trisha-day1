@@ -49,4 +49,4 @@ Once you finish the slides, go back and write a short-sentence summarizing below
 * **commited** `git commit` command was entered and the version is saved locally
 
 ## Git Cheat Sheet
-<img align="right" width="500" src="GitCheatSheet.png" alt="Git Cheat Sheet" />
+<img align="right" width="500" src="gitCheatSheet.png" alt="Git Cheat Sheet" />
