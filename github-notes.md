@@ -36,7 +36,8 @@ Once you finish the slides, go back and write a short-sentence summarizing below
 * **working directory** the file or directory that you are working on
     * example: on your laptop, you have a projects folder containing the files you are working on
 
-<p><cite><img align="right" width="300" src="staging.png" alt="staging files in Git" /></cite> by <a href="https://softwareengineering.stackexchange.com/users/2439/rook">Rook</a> </p>
+<img align="right" width="300" src="staging.png" alt="staging files in Git" />
+ * img by [Rook](https://softwareengineering.stackexchange.com/users/2439/rook)
 
 * **staging area** the state of your files when you made a change but have not commited them yet
 * **local Git repository** the file you are working on your local machine that is initialized for git version control
@@ -49,4 +50,23 @@ Once you finish the slides, go back and write a short-sentence summarizing below
 * **commited** `git commit` command was entered and the version is saved locally
 
 ## Git Cheat Sheet
-<img align="right" width="500" src="gitCheatSheet.png" alt="Git Cheat Sheet" />
+<img align="center" width="700" src="gitCheatSheet.png" alt="Git Cheat Sheet" />
+
+## Branching out
+* Create branches so that you can separate each feature you are working on. This is key when you are collaborating in a team as it makes it easier to track the changes and debug
+* You can `merge` files or `revert` from a previous version
+* To create a new branch, enter the command below in your terminal:
+```
+git checkout -b <name-of-branch>
+```
+* To merge a branch:
+```
+git merge -b <name-of-branch>
+```
+* To delete a branch:
+```
+git branch -d <name-of-branch>
+```
+## Resolving Conflicts 
+* Sometimes when you merge files, there can be conflicting changes. You can resolve it by fixing the conflict directly on the document you are working on and then `commiting` the result
+

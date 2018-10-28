@@ -27,9 +27,9 @@ Complete materials below before 10/29/18
   - [x] Unit 1: HTML and CSS - Review the curriculum
   - [x] Unit 2: Programming in JavaScript Control - Review the curriculum
   - [x] [How to Work on Drills](https://gist.github.com/rich-at-thinkful/a36c50bc86afc31fed4113c8f1ece110) - Use this requirement for the upcoming days of drills
-- [ ] Note taking on Slides
-  - [ ] [Git Presentation Slides](https://thinkful.slides.com/thinkful/git-github-basics#/)
-  - [ ] [JavaScript Presentation Slides](https://thinkful.slides.com/thinkful/js-functions-conditionals#/)
+- [x] Note taking on Slides
+  - [x] [Git Presentation Slides](https://thinkful.slides.com/thinkful/git-github-basics#/)
+  - [x] [JavaScript Presentation Slides](https://thinkful.slides.com/thinkful/js-functions-conditionals#/)
 
 ## Workshop | 10a - 11a ET
 
