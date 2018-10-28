@@ -58,9 +58,9 @@ Complete materials below before 10/29/18
 Review today's work and finish any exercises you didn't have time for.
 
 - [ ] Complete tomorrow's pre-requisites and the comprehension quiz before Tue, 10/30 @ 10a ET.
-- [ ] Review course readings
-  - [ ] [Arrays and Loops](https://courses.thinkful.com/web-dev-001v1/lesson/2.4)
-  - [ ] [Scope and the problem with globals](https://courses.thinkful.com/web-dev-001v1/lesson/2.5)
+- [x] Review course readings
+  - [x] [Arrays and Loops](https://courses.thinkful.com/web-dev-001v1/lesson/2.4)
+  - [x] [Scope and the problem with globals](https://courses.thinkful.com/web-dev-001v1/lesson/2.5)
 - [ ] Notes for Slides
   - [ ] [Loops, Arrays, Scope and Higher Order Functions (HOFs)](https://thinkful.slides.com/thinkful/loops-arrays-scope/#/)
 - [ ] Complete Quiz below before 10a today Tue, 10/30
