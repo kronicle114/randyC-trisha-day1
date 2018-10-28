@@ -52,7 +52,7 @@ sayHello('Beyonce', 'Knowles');
 
 ```
 
-<img align="right" width="300" src="undefined.png" alt="undefined value" />
+<img align="right" width="300" src="Screen Shot 2018-10-27 at 7.49.03 PM.png" alt="undefined value" />
 
 ## Returning Values
 * Almost always better to return a value 
