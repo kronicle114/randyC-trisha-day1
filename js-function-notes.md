@@ -167,7 +167,8 @@ function addUserToDatabase(username) {
 
   try {
     addUserToDatabase('John');  // Successful
-    addUserToDatabase('Jo');    // Will throw error and be caught below   addUserToDatabase();        // Will throw error and be caught below
+    addUserToDatabase('Jo');    // Will throw error and be caught below   
+    addUserToDatabase();        // Will throw error and be caught below
   } catch(e) {
     console.error(e.message);
   }
