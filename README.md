@@ -61,8 +61,8 @@ Review today's work and finish any exercises you didn't have time for.
 - [x] Review course readings
   - [x] [Arrays and Loops](https://courses.thinkful.com/web-dev-001v1/lesson/2.4)
   - [x] [Scope and the problem with globals](https://courses.thinkful.com/web-dev-001v1/lesson/2.5)
-- [ ] Notes for Slides
-  - [ ] [Loops, Arrays, Scope and Higher Order Functions (HOFs)](https://thinkful.slides.com/thinkful/loops-arrays-scope/#/)
+- [x] Notes for Slides
+  - [x] [Loops, Arrays, Scope and Higher Order Functions (HOFs)](https://thinkful.slides.com/thinkful/loops-arrays-scope/#/)
 - [ ] Complete Quiz below before 10a today Tue, 10/30
     * [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScleFOAUjZ-HxvTn_6e0VkmIYIE20WH4CSLL2A_ciRs3u13Yg/viewform)
 - [ ] Watch: Check out this TedTalk on ["Learning to Learn"](https://www.youtube.com/watch?v=O96fE1E-rf8) and consider how some of the ideas shared may relate to you and your bootcamp journey. Share in our Slack group what ideas resonate for you.
