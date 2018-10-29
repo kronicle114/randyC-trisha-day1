@@ -1,1 +1,8 @@
-console.log("Hi, my name is Trisha and I'm 25 years old");
+
+createGreeting();
+
+function createGreeting (){
+
+    console.log("Hi, my name is Trisha and I'm 25 years old");
+
+}
