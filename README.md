@@ -32,6 +32,23 @@ Complete materials below before 10/29/18
   - [x] [JavaScript Presentation Slides](https://thinkful.slides.com/thinkful/js-functions-conditionals#/)
 
 ## Workshop | 10a - 11a ET
+- [x] [Workshop by Rich Greenhill](https://sessions.thinkful.com/ei26workshop)
+
+### Notes
+* No shortcut to succeed. You have to experiment and practice
+* There's no one way to do things
+* Expectation: you're not going to be an expert (you can't build FaceBook, but you can break it down into components)
+* FUN! You're gonna create things 
+
+### Housekeeping
+* In the real world, being able to work with someone with different set and level of skill is invaluable.
+* Take advantage of that dynamic! You both can learn from each other. 
+
+### Slides 
+* First two weeks is focused on the **front-end** the client that is being used by the user
+![front-end technologies]() image
+* **jQuery** one of the libraries we're going to use. One of the most popular library when you look up job descriptions
+
 
 ## Pair Programming | 11a - 12:45n ET
 - [ ] Session Link: https://sessions.thinkful.com/randyC-trisha
