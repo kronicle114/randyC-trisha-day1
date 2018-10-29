@@ -58,9 +58,9 @@ Complete materials below before 10/29/18
 - [x] Exercises
 
 ### Exercises
-- [ ] **In Progress** [GitHub drills](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/git-github-drills.md) make sure you switch who between who is driving and navigating between each drill. After each switch, commit and push your changes to GitHub.
+- [x] [GitHub drills](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/git-github-drills.md) make sure you switch who between who is driving and navigating between each drill. After each switch, commit and push your changes to GitHub.
 - [ ] JavaScript fundamentals drills:
-  - [ ] [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
+  - [ ] **In Progress** [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
   - [ ] [Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
 * When working through the drills, first state the problem clearly with your pair and discuss your solution before actually implementing it.
 
@@ -68,10 +68,10 @@ Complete materials below before 10/29/18
 - [x] :ramen:
 
 ## Group Session | 1:30p - 2p ET
-- [ ] Review morning pair programming work
+- [x] Review morning pair programming work
 
 ## Afternoon Pairing | 2p - 5:30p ET
-- [ ] Continue with morning's drills
+- [x] Continue with morning's drills
 - [ ] Evening reading and comprehension checks (if finished early)
 
 ## Evening Assignments | After 5:30p
