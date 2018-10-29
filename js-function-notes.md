@@ -15,21 +15,37 @@ Once you finish the slides, go back and write a short-sentence summarizing below
 
 ## JavaScript functions
 * Block of reusable code 
-* Preferably doing one thing well 
+* A computer is very very dumb :laughing: but it's incredibly good at doing repeatable operations and crunching data in a very fast way
+* so the reason for coding is to build these instructions for the computer
+* build your functions preferably doing one thing well 
     * "Single responsibility principle" => make sure that your code is readable
-    
-    
-## Declaring a function
+
+## :rotating_light: Alert :rotating_light:
+* forget about doing code in the browser
+* please use all your exercises on **IDE** 
+
+## Function declaration vs expression
 What is the difference between a function declaration and a function expression?
-- [  ] function declaration
+* Has to do with hoisting (the moving of the availability of your variables)
+ 
+> Example: If you invoke a function `sayHello` first, before declaring the function, it will work 
+```
+sayHello();
+function sayHello() {
+   console.log('hi')
+}
+```
+
+- [  ] **function declaration**
     * write something here
 ```
 function sayHello(firstName, lastName){
   console.log('Hello', firstName, lastName);
 }
 ```
-- [  ] function expression
-    * write something here
+- [  ] **function expression**
+    * general consensus is to make JavaScript a stricter language so function expression is more preferable
+
 ```
 const sayHello = function sayHello(firstName, lastName){
   console.log('Hello', firstName, lastName);
@@ -61,6 +77,7 @@ sayHello('Beyonce', 'Knowles');
 ## Default parameters
 * When a value is not provided, you can set default values instead of undefined
 * Provide `default parameters` in your function declaration
+* this is **ES6**
 
 ```
 function sayHello(firstName = 'Love', lastName = 'Nikki'){
@@ -71,14 +88,23 @@ sayHello();
 // will log => "Hello my name is Love Nikki!"
 
 ```
+
+activityName = activityName || 'hiking';
+time = time || 3;
+
+
 ## Declaring with `let` and `const`
 * `let` declare variables whose value may be reassigned
     * useful for loops
 * `const` declare variables that can't be reassigned
 * `var` deprecated, declares variables globally, still found in many codebases
     * avoid using `var` as it can get tricky when combining code
+* **block scope** example img
+* example of `var` scope img
+* example of `let` scope img
 
-## Template literals
+
+## Template literals (ES6)
 * instead of using string **concatenation**
 ```
 let firstName = 'Love';
@@ -115,6 +141,9 @@ function temperatureControl(temperature){
 
 ## Switch
 * As an alternative to if/else, usually used when the conditional is evaluating a string
+* if selection = 'create' then case
+* if selection = 'deleteLast' then case
+* **caveat** you need to use the `break` command
 ```
 function mainMenu(selection) {
   switch (selection) {
@@ -133,8 +162,10 @@ function mainMenu(selection) {
     }
 }
 ```
+
 ## Error handling
 * tells the program how to handle errors
+   * when you encounter an error, you do not want the application to crash, you want to handle the error gracefully
 * **try block** the code block where something might go wrong, if no error occurs, the codeblock will execute
 * **catch block** if there's an error in the try block (aka it fails), the catch block will execute and handles the error thrown by the try block
 * **throw statement** if you want to throw a custom error message
@@ -149,7 +180,12 @@ try {
 }
 
 ```
+
+knowing that your 
+
 ### try/catch/throw demo
+* if an error is going to occur, throw an error, then catch it
+
 ```
 function addUserToDatabase(username) {
   if (!username || username.length < 3) {
