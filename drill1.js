@@ -1,5 +1,23 @@
 
 function getYearOfBirth (age){
+    
+    if(typeof age === string){
+
+         throw new Error("Age cannot be text");
+
+    }
+    try{
+        getYearOfBirth(25);
+        const greeting1 = createGreeting('Trisha', 25);
+        console.log(greeting1);
+    } catch(e) {
+
+        console.log(e.message);
+    }
+
+
+    }
+    
     if (age < 0){
         throw new Error("Age can not be negative");
     }
