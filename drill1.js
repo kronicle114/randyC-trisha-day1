@@ -1,9 +1,9 @@
 
 function getYearOfBirth (age){
     
-    if(typeof age === string){
+    if(typeof age === string || age === NaN || age === undefined){
 
-         throw new Error("Age cannot be text");
+         throw new Error("Age cannot be text. Please enter a number.");
 
     }
     try{
