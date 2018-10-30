@@ -26,10 +26,12 @@ jediName('Beyonce', 'Knowles');
 ***********************
 */
 
+// MENTOR NOTES: You can only have one "if" & "else" statements, but infinite number of "else if"
+
 function beyond(num){
   if (num === Infinity){
     console.log('And beyond');
-  } if (Number.isFinite(num) === true && num > 0){
+  } else if (Number.isFinite(num) === true && num > 0){
     console.log('To infinity');
   } else if (Number.isFinite(num) === true && num < 0){
     console.log('To negative infinity');
@@ -83,6 +85,7 @@ function decode(str){
       decodedArray.push(' ');
     }
   }
+  // MENTOR NOTES: the ".replace()" is not necessary, you can just pass a function inside ".join()"
   return decodedArray.join().replace(/,/g, '');
 }
 
