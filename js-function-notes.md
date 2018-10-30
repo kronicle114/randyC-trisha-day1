@@ -89,8 +89,8 @@ sayHello();
 
 ```
 
-activityName = activityName || 'hiking';
-time = time || 3;
+![Default parameters ES5 version 1](es5-default-variables.png)
+![Default parameters ES5 version 2](es5-default-variables.2png)
 
 
 ## Declaring with `let` and `const`
@@ -103,6 +103,9 @@ time = time || 3;
 * example of `var` scope img
 * example of `let` scope img
 
+![variable scope ES6](var-scope-es6.png)
+
+![variable scope ES5](var-scope-es5.png)
 
 ## Template literals (ES6)
 * instead of using string **concatenation**
@@ -121,6 +124,10 @@ let lastName = 'Nikki';
 console.log(`My name is ${firstName} ${lastName}`);
 // logs => "My name is Love Nikki""
 ```
+
+![template literals with ES6](template-literal-es6.png)
+
+![template literals with ES5](template-literal-es5.png)
 
 ## Control flow and conditionals
 * Use if/else when the outcome of the statement depends on a condition being fulfilled
@@ -161,6 +168,7 @@ function mainMenu(selection) {
       process.exit(0);
     }
 }
+
 ```
 
 ## Error handling
@@ -180,8 +188,6 @@ try {
 }
 
 ```
-
-knowing that your 
 
 ### try/catch/throw demo
 * if an error is going to occur, throw an error, then catch it
