@@ -89,80 +89,6 @@ function decode(str){
 decode('craft block argon meter bells brown croon droop');
 // returns => "for loop"
 
-// function decode(str){
-//   let wordToLetter = str.split(' ');
-//   let decodedArray = [];
-//   for (let i = 0; i < wordToLetter.length; i++){
-//     if (wordToLetter[i][0] === 'a'){
-//       decodedArray.push(wordToLetter[i].charAt(1));
-//     } else if (wordToLetter[i][0] === 'b'){
-//       decodedArray.push(wordToLetter[i].charAt(2));
-//     } else if (wordToLetter[i][0] === 'c'){
-//       decodedArray.push(wordToLetter[i].charAt(3));
-//     } else if (wordToLetter[i][0] === 'd'){
-//       decodedArray.push(wordToLetter[i].charAt(4));
-//     }  else {
-//       decodedArray.push(' ');
-//     }
-//   }
-//   return decodedArray;
-// }
-
-// decode('craft block argon meter bells brown croon droop');
-// (8) ["f", "o", "r", " ", "l", "o", "o", "p"]
-
-
-
-// function decode(str){
-//   let wordToLetter = str.split(' ');
-//   let decodedArray = [];
-//   for (let i = 0; i < wordToLetter.length; i++){
-//     if (wordToLetter[i] === 'a'){
-//       decodedArray.push(wordToLetter[i].charAt(1));
-//     } else if (wordToLetter[i] === 'b'){
-//       decodedArray.push(wordToLetter[i].charAt(2));
-//     } else if (wordToLetter[i] === 'c'){
-//       decodedArray.push(wordToLetter[i].charAt(3));
-//     } else if (wordToLetter[i] === 'd'){
-//       decodedArray.push(wordToLetter[i].charAt(4));
-//     }  else {
-//       decodedArray.push(' ');
-//     }
-//   }
-//   return decodedArray;
-// }
-
-// decode('craft block argon meter bells brown croon droop');
-
-
-
-// function decode(str){
-//   if (str[0] === 'c'){
-// 	console.log(str.charAt(3));
-//   }
-// };
-
-// decode('craft');
-// f
-// //expected => 'for loop'
-
-// function decode(str){
-//   //  let wordToLetter = str.split(' ');
-//    let decodedWord = '';
-//    for (let i = 0; i < str.length; i++){
-//     if (i === 'c'){
-//     return str.charAt(3);
-//      } // else if (){
-//   //   } else if (){
-//   //   } else if (){
-//   //   } else {
-//   //  }
-//    }
-//   };
-  
-//   decode('craft');
-//   //expected => 'for loop'
-
 
 /* 
 ************************* 
@@ -170,12 +96,38 @@ decode('craft block argon meter bells brown croon droop');
 *************************
 */
 
-function (month, leapYear){
+function daysInYear(month, leapYear) {
+  let numOfDays;
+
+  switch(month){
+  case 'January':
+  case 'March':
+  case 'May':
+  case 'July':
+  case 'August':
+  case 'October':
+  case 'December':
+    numOfDays = 31;
+    break;
   
+  case 'April':
+  case 'June':
+  case 'September':
+  case 'November':
+    numOfDays = 30;
+    break;            
+  
+  case 'February':
+    numOfDays = leapYear ? 29 : 28; // if leapYear is true, numOfDays = 29, else numOfDays = 28
+    break;
+  }
+  return `${month} has ${numOfDays} days`;
 }
 
-
-
+//daysInYear('February', true);
+// => February has 29 days
+// daysInYear('March', false);
+// => February has 28 days
 
 
 
@@ -184,3 +136,42 @@ function (month, leapYear){
   ROCK PAPER SCISSORS
 ***********************
 */
+
+function rockPaperScissors(userChoice){
+  
+  //throw error if num is invalid choise
+  function numToWord(num){
+    switch(num){
+    case 1:
+      return 'rock';
+      break;
+    case 2:
+      return 'paper';
+      break;
+    case 3:
+      return 'scissors';
+      break;
+    default:
+      throw new Error('Please pick a number between 1 - 3.')
+    }
+  }
+
+  //computerChoice = randomly generated number b/w 1-3
+  const computerChoice = Math.floor(Math.random() * 3) + 1;
+
+  //container variables for user and computer choice
+  //pass userChoice & computerChoice to numToWord() so it returns a string or an error
+  let userWord = numToWord(userChoice);
+  let computerWord = numToWord(computerChoice);
+
+  //conditional statements for 3 cases between player and computer
+  if (userChoice === computerChoice){
+    return `It's a tie! Both players choose ${userWord}`;
+  } else if ((userChoice === 1 && computerChoice === 2) || (userChoice === 2 && computerChoice === 3) || (userChoice === 3 && computerChoice === 1)) {
+    return `Human wins! The User chose ${userWord} and AI chose ${computerWord}!`
+  } else {
+    return `Computer wins! AI chose ${computerWord} and the User chose ${userWord}.`
+  }
+}
+
+rockPaperScissors(2);

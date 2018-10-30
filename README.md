@@ -59,11 +59,11 @@ Complete materials below before 10/29/18
 
 ### Exercises
 - [x] [GitHub drills](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/git-github-drills.md) make sure you switch who between who is driving and navigating between each drill. After each switch, commit and push your changes to GitHub.
-- [ ] JavaScript fundamentals drills:
-  - [x] [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
-  - [ ] **In Progress** [Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
-      * Still have to finish How many days and rock, paper, scissors
+- [x] JavaScript fundamentals drills:
 * When working through the drills, first state the problem clearly with your pair and discuss your solution before actually implementing it.
+  - [x] [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
+  - [x] [Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
+      * [MySolutions](https://github.com/kronicle114/eiDay1/blob/master/function-drills-2.js)
 
 ## Lunch Break | 12:45p - 1:30p ET
 - [x] :ramen:
@@ -85,16 +85,13 @@ Review today's work and finish any exercises you didn't have time for.
 - [x] Notes for Slides
   - [x] [Loops, Arrays, Scope and Higher Order Functions (HOFs)](https://thinkful.slides.com/thinkful/loops-arrays-scope/#/)
 - [x] Complete Quiz below before 10a today Tue, 10/30
-    * [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScleFOAUjZ-HxvTn_6e0VkmIYIE20WH4CSLL2A_ciRs3u13Yg/viewform)
-    * **Review with Mentor** try/throw/catch concepts 
-    
-![Try/throw/catch quiz questions to go over with Mentor](try-throw-catch.png)
+    * [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScleFOAUjZ-HxvTn_6e0VkmIYIE20WH4CSLL2A_ciRs3u13Yg/viewform)    
 
 - [x] Watch: Check out this TedTalk on ["Learning to Learn"](https://www.youtube.com/watch?v=O96fE1E-rf8) and consider how some of the ideas shared may relate to you and your bootcamp journey. Share in our Slack group what ideas resonate for you.
 - [x] Read: This article on [Growth Mindset](https://onedublin.org/2012/06/19/stanford-universitys-carol-dweck-on-the-growth-mindset-and-education/ ). Think about what you can do to cultivate more of a growth mindset in this course. Share your thoughts in our Slack group.
   * Slack opinion about readings/video tonight:
-  > *Growth Mindset*: The idea that my comments can affect someone's perception of their ability is powerful. After reading this article, I feel like I have to watch what I say around my 3 little nieces. :sweat_smile: To cultivate more of a growth mindset in this course, I feel like I have to explicitly recognize my effort and perseverance daily. I recognize that I tend to be my harshest critic so just taking that time to validate my efforts will help motivate me for the next set of problems.
-*Learning to Learn* :  First, I want to say that professor Barbara Oakley is an amazing speaker. She explained all of her concepts so well. The *recall* technique, that is to say, that " ...the best way to learn something is to look at the material, look away, and then see what you can recall from it") is the most helpful learning strategy I've encountered thus far in my entire academic life. So, I'm going to be using that in the upcoming days. :fastparrot:
+  > **Growth Mindset**: The idea that my comments can affect someone's perception of their ability is powerful. After reading this article, I feel like I have to watch what I say around my 3 little nieces. :sweat_smile: To cultivate more of a growth mindset in this course, I feel like I have to explicitly recognize my effort and perseverance daily. I recognize that I tend to be my harshest critic so just taking that time to validate my efforts will help motivate me for the next set of problems.
+  > **Learning to Learn** :  First, I want to say that professor Barbara Oakley is an amazing speaker. She explained all of her concepts so well. The *recall* technique, that is to say, that " ...the best way to learn something is to look at the material, look away, and then see what you can recall from it") is the most helpful learning strategy I've encountered thus far in my entire academic life. So, I'm going to be using that in the upcoming days. :fastparrot:
 
 - [x] Sign up for a mock interview for AJAX and jQuery, by clicking on "Goals" on your dashboard and scrolling down. Schedule it two weeks from now and outside of normal class hours so you're ready to complete it before moving on to the next course section. Don't worry, you'll know a lot more about these topics when you take the interview!
    * Two weeks makes around the week of Nov 10th
