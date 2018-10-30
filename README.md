@@ -9,7 +9,7 @@ Complete materials below before 10/29/18
   - [x] [Overcoming Imposter Syndrome](https://medium.com/counter-intuition/overcoming-impostor-syndrome-bdae04e46ec5)
   - [x] [Auto-Graded JS Exercises](https://repl.it/community/classrooms/20690)
    * Note: Still need to finish about 40% through daily challenges
-  - [ ] [FreeCodeCamp content](https://learn.freecodecamp.org/)
+  - [ ] Optional: [FreeCodeCamp content](https://learn.freecodecamp.org/)
     - [ ] Basic Javascript
     - [ ] Object Oriented Programming
     - [ ] Functional Programming
@@ -60,8 +60,9 @@ Complete materials below before 10/29/18
 ### Exercises
 - [x] [GitHub drills](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/git-github-drills.md) make sure you switch who between who is driving and navigating between each drill. After each switch, commit and push your changes to GitHub.
 - [ ] JavaScript fundamentals drills:
-  - [ ] **In Progress** [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
-  - [ ] [Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
+  - [x] [Set 1](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-1.md)
+  - [ ] **In Progress** [Set 2](https://github.com/rich-at-thinkful/ft-curric-gists/blob/master/fundamentals/function-drills-2.md)
+      * Still have to finish How many days and rock, paper, scissors
 * When working through the drills, first state the problem clearly with your pair and discuss your solution before actually implementing it.
 
 ## Lunch Break | 12:45p - 1:30p ET
@@ -72,23 +73,33 @@ Complete materials below before 10/29/18
 
 ## Afternoon Pairing | 2p - 5:30p ET
 - [x] Continue with morning's drills
-- [ ] Evening reading and comprehension checks (if finished early)
+- [x] Evening reading and comprehension checks (if finished early)
 
 ## Evening Assignments | After 5:30p
 Review today's work and finish any exercises you didn't have time for.
 
-- [ ] Complete tomorrow's pre-requisites and the comprehension quiz before Tue, 10/30 @ 10a ET.
+- [x] Complete tomorrow's pre-requisites and the comprehension quiz before Tue, 10/30 @ 10a ET.
 - [x] Review course readings
   - [x] [Arrays and Loops](https://courses.thinkful.com/web-dev-001v1/lesson/2.4)
   - [x] [Scope and the problem with globals](https://courses.thinkful.com/web-dev-001v1/lesson/2.5)
 - [x] Notes for Slides
   - [x] [Loops, Arrays, Scope and Higher Order Functions (HOFs)](https://thinkful.slides.com/thinkful/loops-arrays-scope/#/)
-- [ ] Complete Quiz below before 10a today Tue, 10/30
+- [x] Complete Quiz below before 10a today Tue, 10/30
     * [Quiz Link](https://docs.google.com/forms/d/e/1FAIpQLScleFOAUjZ-HxvTn_6e0VkmIYIE20WH4CSLL2A_ciRs3u13Yg/viewform)
+    * **Review with Mentor** try/throw/catch concepts 
+    
+![Try/throw/catch quiz questions to go over with Mentor](try-throw-catch.png)
+
 - [x] Watch: Check out this TedTalk on ["Learning to Learn"](https://www.youtube.com/watch?v=O96fE1E-rf8) and consider how some of the ideas shared may relate to you and your bootcamp journey. Share in our Slack group what ideas resonate for you.
 - [x] Read: This article on [Growth Mindset](https://onedublin.org/2012/06/19/stanford-universitys-carol-dweck-on-the-growth-mindset-and-education/ ). Think about what you can do to cultivate more of a growth mindset in this course. Share your thoughts in our Slack group.
-- [ ] Sign up for a mock interview for AJAX and jQuery, by clicking on "Goals" on your dashboard and scrolling down. Schedule it two weeks from now and outside of normal class hours so you're ready to complete it before moving on to the next course section. Don't worry, you'll know a lot more about these topics when you take the interview!
+  * Slack opinion about readings/video tonight:
+  > *Growth Mindset*: The idea that my comments can affect someone's perception of their ability is powerful. After reading this article, I feel like I have to watch what I say around my 3 little nieces. :sweat_smile: To cultivate more of a growth mindset in this course, I feel like I have to explicitly recognize my effort and perseverance daily. I recognize that I tend to be my harshest critic so just taking that time to validate my efforts will help motivate me for the next set of problems.
+*Learning to Learn* :  First, I want to say that professor Barbara Oakley is an amazing speaker. She explained all of her concepts so well. The *recall* technique, that is to say, that " ...the best way to learn something is to look at the material, look away, and then see what you can recall from it") is the most helpful learning strategy I've encountered thus far in my entire academic life. So, I'm going to be using that in the upcoming days. :fastparrot:
+
+- [x] Sign up for a mock interview for AJAX and jQuery, by clicking on "Goals" on your dashboard and scrolling down. Schedule it two weeks from now and outside of normal class hours so you're ready to complete it before moving on to the next course section. Don't worry, you'll know a lot more about these topics when you take the interview!
    * Two weeks makes around the week of Nov 10th
-- [ ] If you would like more practice with Git try using these tools: 
+   * Your Bootcamp Interview EI with Jason Humphrey at 09:00pm (Eastern Time - US & Canada) on Saturday, November 10, 2018 is scheduled.
+
+- [ ] Optional: If you would like more practice with Git try using these tools: 
    * [TryGit](https://try.github.io/levels/1/challenges/1)
    * [Visualizing Git with D3](https://onlywei.github.io/explain-git-with-d3/)
